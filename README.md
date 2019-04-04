@@ -3,11 +3,11 @@
 The script get-LLDP.ps1 collects LLDP settings on all Logical Interconnects.
 
 ## Scenario
-In the OneView environment, an admin doest not remote connections to external swicthes from Interconnect uplink ports.
+In OneView environment, an admin does not see remote connections to external swicthes from Interconnect uplink ports.
 He needs to check whether enhanced LLDP tagging is enabled/disabled on the Logical Interconnect
 
 ## Prerequisites
-The  script requires:
+The script requires:
    * the latest OneView PowerShell library : https://github.com/HewlettPackard/POSH-HPOneView/releases
    * Optionally, you can install the module ImportExcel from the PowerShell gallery to take advantage of Excel functions 
      ** Use the command Install-module ImportExcel -scope CurrentUser 
